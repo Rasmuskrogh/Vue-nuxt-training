@@ -60,9 +60,13 @@ export default {
     baseUrl:
       process.env.BASE_URL ||
       'https://first-nuxt-project-62709-default-rtdb.firebaseio.com',
+    fbAPIKey: 'AIzaSyAAVyJ2T3P7B1DqdrbS-_o3MDXWd_Zhqgw',
   },
   transition: {
     name: 'fade',
     mode: 'out-in',
   },
+  // router: {
+  //   middleware: 'log',
+  // },
 };
